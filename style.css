@@ -1,0 +1,179 @@
+/* Gerais*/
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.row {
+  margin: 0;
+}
+
+.container {
+  padding: 70px 0;
+}
+p {
+  text-align: justify;
+}
+
+p,
+li {
+  color: #353d41;
+  font-size: 14;
+}
+.main-title {
+  color: #353d41;
+  margin: 0 0 65px 0;
+  font-size: 40px;
+  text-align: center;
+}
+
+.main-title::after {
+  content: "";
+  border-top: 2px solid #353d41;
+  width: 15%;
+  position: absolute;
+  top: 60px;
+  left: 42.5%;
+}
+/* NAV BAR */
+header,
+.navbar {
+  background-color: #353d41;
+}
+
+#nav-container {
+  padding-top: 0;
+  padding-left: 0;
+}
+
+#logo {
+  width: 75px;
+}
+
+.navbar-expand-lg .navbar-brand {
+  padding: 0;
+  color: #fff;
+}
+
+.navbar-expand-lg .navbar-brand:hover {
+  color: #fff;
+}
+
+#navbar-links a {
+  color: #fff;
+}
+
+.navbar-expand-lg .navbar-nav .navlink {
+  padding: 1rem 0.8rem;
+}
+
+/* Imagem OCAU */
+.ocaucanvas h3 {
+  color: #353d41;
+  top: 60px;
+  margin: 15px 0 35px 0;
+  font-size: 40px;
+  text-align: center;
+}
+
+#ocaucanvas {
+  align-content: center;
+  width: 950px;
+}
+
+.ocaucanvas {
+  text-align: center;
+}
+
+/* About OCAU */
+.abouttext {
+  text-align: center;
+}
+/* Download */
+.downloads {
+  text-align: center;
+}
+.downloads p {
+  text-align: center;
+}
+
+.downloads a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
+
+/* News Letter */
+
+#news-area {
+  text-align: center;
+  background-color: #f9f9f9;
+}
+
+#news-area p {
+  font-size: 18px;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+#email-input {
+  border-radius: 0;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border: 1px solid #353d41;
+  display: inline;
+  box-sizing: border-box;
+  width: 40%;
+  height: 40px;
+}
+
+#news-btn {
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border: 1px solid #353d41;
+  background-color: #353d41;
+  color: #fff;
+  text-transform: uppercase;
+  height: 40px;
+  padding: 0 30px;
+  margin-left: -130px;
+  position: absolute;
+  transition: 0.5s;
+}
+
+#news-btn:hover {
+  background-color: #fff;
+  color: #353d41;
+}
+
+/* Footer */
+
+#contact-area {
+  text-align: center;
+}
+
+.contact-box {
+  padding-bottom: 50px;
+  margin-bottom: 50px;
+  border-bottom: 1px solid #353d41;
+}
+
+.contact-box svg {
+  color: #353d41;
+  border: solid 1px #353d41;
+  border-radius: 50%;
+  width: 55px;
+  height: 55px;
+  line-height: 55px;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.contact-box p {
+  font-size: 20px;
+  text-align: center;
+}
+.contact-tile {
+  font-weight: bold;
+}
+.contact-box a {
+  text-decoration: none;
+}

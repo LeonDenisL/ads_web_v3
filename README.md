@@ -6,7 +6,7 @@
 <strong> index.php </strong> -&gt; Arquivo index com a Home do Site O cavas da Usabilidade.<br>
 <strong>login.php</strong> -&gt; Area de Login como administrador para acessar os emais logados. Para fazer o login é necessario ter o usuario no banco de dados registrado.<br>
 <strong>index_email.php</strong> -&gt; Lista de emails colocados na newsletter, com manipulação dos dados para editar ou apagar. Para acessar o index_email é necessarios está logado.<br>
-<strong>register.pgp</strong> -&gt; Pagina de registro de novo Admin.</p>
+<strong>register.php</strong> -&gt; Pagina de registro de novo Admin.</p>
 
 <p class="has-line-data" data-line-start="16" data-line-end="26"><h3><strong>Outros arquivos:</strong></h3>
 <strong>apagar.php</strong> -&gt; Faz a função de apagar na pagina do index_email.php.<br>
@@ -17,4 +17,4 @@
 <strong>protect.php</strong> -&gt; Protege a pagina index_email.php proibindo o acesso de usuarios não logados.<br>
 <strong>var.php</strong> -&gt; Variaveis com textos da pagina index.php<br>
 <strong>config.php</strong> -&gt; configuração de conexão com o banco de dados<br>
-<strong>conexao.pgp</strong> -&gt; conecta os arquivos de login ao banco de dados.</p>
+<strong>conexao.php</strong> -&gt; conecta os arquivos de login ao banco de dados.</p>

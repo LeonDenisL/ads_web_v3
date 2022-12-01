@@ -91,7 +91,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
 <head>
 <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Login </title>
+  <title>Login</title>
   <link rel="canonical" href="https://getbootstrap.com/docs/5.2/examples/navbar-fixed/">
   <link rel="stylesheet" href="style.css" />
     <link
@@ -111,8 +111,9 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
       <a class="navbar-brand" href="#"><img id="logo" src="images/logo.png" alt="Logo U" /> O Canvas de Usabilidade</a>
     </div>
    </nav>
+   <main class="container mt-5">
     <div class="wrapper">
-        <h2>Login</h2>
+        <h2>Login Como admin</h2>
         <p>Por favor, preencha os campos para fazer o login.</p>
 
         <?php 
@@ -139,6 +140,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
             <p>Não tem uma conta? <a href="register.php">Inscreva-se agora</a>.</p>
         </form>
     </div>
+    </main>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
